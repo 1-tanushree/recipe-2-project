@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300" fill="none">
+  <!-- Background Gradient Circle -->
+  <defs>
+    <radialGradient id="bgGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFF8E1" />
+      <stop offset="100%" stop-color="#FFE0B2" />
+    </radialGradient>
+  </defs>
+  <circle cx="150" cy="150" r="140" fill="url(#bgGradient)" stroke="#FFC107" stroke-width="5" />
+
+  <!-- Chef Hat Icon -->
+  <path d="M110 110 Q140 70 190 110 Q185 140 150 140 Q115 140 110 110 Z" fill="#FFCA28" />
+  <ellipse cx="150" cy="140" rx="40" ry="10" fill="#FFD54F" />
+
+  <!-- Spoon Icon -->
+  <rect x="145" y="160" width="10" height="70" rx="5" fill="#6D4C41" />
+  <circle cx="150" cy="155" r="12" fill="#6D4C41" />
+
+  <!-- Text -->
+  <text x="50%" y="265" font-family="'Poppins', sans-serif" font-size="26" fill="#4E342E" font-weight="bold" text-anchor="middle">Chef's Haven</text>
+</svg>
