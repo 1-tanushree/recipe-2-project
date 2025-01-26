@@ -2,8 +2,9 @@ import { Search } from "lucide-react";
 import RecipeCard from "../components/RecipeCard";
 import {useEffect,useState} from 'react';
 
-const APP_ID="25242a1e";
-const APP_KEY="bb50db07549fab43fb4ff41d7dfa4f52";
+const APP_ID=import.meta.env.VITE_APP_ID;
+const APP_KEY=import.meta.env.VITE_APP_KEY;
+
 
 const Homepage = () => {
 
